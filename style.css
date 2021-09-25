@@ -1,0 +1,138 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: linear-gradient(to right, #6495ED, #00CED1);
+}
+.disableSelect{
+	user-select: none;/* Chrome */
+	-webkit-user-select: none;/* Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer */
+}
+.displayInline{
+	display: inline;
+}
+#app{
+	padding-top: 5%;
+	font-size: 2em;
+	font-weight: bold;
+}
+.titleContainer{
+	color: black;
+}
+.displayCenter{
+	display: flex;
+	justify-content: center;
+}
+.result{
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 20px;
+	padding-right: 10px;
+	height: 60px;
+	width: 326px;
+	background: #01362E;
+	color: #fff;
+	border: 1px solid transparent;
+	transition-duration: 0.5s;
+}
+.result:hover{
+	transition-duration: 0.5s;
+	background: transparent;
+	border: 1px solid #fff;
+	color: black;
+}
+.secondRowRepeat{
+	background: #C0F5ED;
+	display: flex;
+	justify-content: center;
+	height: 60px;
+	padding-top: 20px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	transition-duration: 0.5s;
+}
+.secondRowRepeat:hover{
+	transition-duration: 0.5s;
+	background: transparent;
+	border: 1px solid #fff;
+}
+.deleteAll{
+	padding-right: 10px;
+	width: 157px;
+	margin: 5px;
+}
+.delete{
+	margin-top: 5px;
+	width: 80px;
+}
+.divide{
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 75px;
+	margin-right: 5px;
+}
+.thirdRowRepeat, .fourthRowRepeat, .fifthRowRepeat, .lastRowRepeat{
+	background: #C0F5ED;
+	display: flex;
+	justify-content: center;
+	height: 60px;
+	padding-top: 20px;
+	cursor: pointer;
+	padding-top: 20px;
+	transition-duration: 0.5s;
+	border: 1px solid transparent;
+}
+.thirdRowRepeat:hover, .fourthRowRepeat:hover, .fifthRowRepeat:hover, .lastRowRepeat:hover{
+	transition-duration: 0.5s;
+	background: transparent;
+	border: 1px solid #fff;
+}
+.one, .two, .three{
+	margin-right: 5px;
+	width: 80px;
+}
+.four{
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 80px;
+}
+.seven{
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 80px;
+}
+.five, .height{
+	margin-top: 5px;
+	width: 80px;
+}
+.six, .add, .nine{
+	width: 80px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.moins{
+	width: 75px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.multiplicate, .add{
+	width: 75px;
+}
+.point{
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 80px;
+	margin-top: 5px;
+}
+.zero{
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 80px;
+}
+.equal{
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 162px;
+}
